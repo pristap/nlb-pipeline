@@ -1,0 +1,23 @@
+<div class="jumbotron">
+	<p class="lead">Realtime pipeline<br /> for bank events.</p>
+
+	<h2>Dashboard</h2>
+	<%= link "View online users in real-time", to: page_path(@conn, :dashboard), class: "btn btn-default" %>
+
+	<h2>Events Moderator</h2>
+	<%= link "Moderate Events", to: event_path(@conn, :index), class: "btn btn-default" %>
+
+	<h2>Support</h2>
+	<%= form_for @conn, page_path(@conn, :index), [as: :support], fn f -> %>
+		<%= select f, :support_id, @support_ids, placeholder: "Support ID", class: "form-control" %>
+		<%= error_tag f, :support_id %>
+		<%= submit "Login", class: "btn btn-default pull-right" %>
+	<% end %>
+
+	<h2>Risk Management</h2>
+	<%= form_for @conn, page_path(@conn, :index), [as: :risk_management], fn f -> %>
+		<%= select f, :guardian_id, @guardian_ids, placeholder: "Guardian ID", class: "form-control" %>
+		<%= error_tag f, :guardian_id %>
+		<%= submit "Login", class: "btn btn-default pull-right" %>
+	<% end %>
+</div>

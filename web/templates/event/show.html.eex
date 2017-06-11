@@ -1,0 +1,56 @@
+<h2>Event <%= @event.id %></h2>
+
+<ul class="list-group">
+	<li class="list-group-item">
+		<b>Name:</b>
+		<%= @event.type %>
+	</li>
+	<li class="list-group-item">
+		<b>Product:</b>
+		<%= @event.product_id %>
+	</li>
+	<li class="list-group-item">
+		<b>Description:</b>
+		<%= @event.description %>
+	</li>
+	<li class="list-group-item">
+		<b>Address:</b>
+		<%= @event.address %>
+	</li>
+	<li class="list-group-item">
+		<b>Phone No.:</b>
+		<%= @event.phone %>
+	</li>
+	<li class="list-group-item">
+		<b>Email:</b>
+		<%= @event.email %>
+	</li>
+	<li class="list-group-item">
+		<b>Account No.:</b>
+		<%= @event.account_no %>
+	</li>
+	<li class="list-group-item">
+		<b>Risk Management:</b>
+		<%= guardian_name(@event.guardian_id) %>
+	</li>
+	<li class="list-group-item">
+		<b>SMS Notification:</b>
+		<%= @event.sms_notification %>
+	</li>
+	<li class="list-group-item">
+		<b>Email Notification:</b>
+		<%= @event.email_notification %>
+	</li>
+	<li class="list-group-item">
+		<b>Processed:</b>
+		<%= @event.processed %>
+	</li>
+	<li class="list-group-item">
+		<b>Contacted:</b>
+		<%= @event.contacted %>
+	</li>
+</ul>
+
+&nbsp;&nbsp;
+<%= link "Back", to: event_path(@conn, :index) %>
+<%= link "Edit", to: event_path(@conn, :edit, @event), class: "pull-right" %>

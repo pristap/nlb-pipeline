@@ -1,0 +1,12 @@
+<div id="task_details"></div>
+<div style="text-align:center">
+	<button id="action_button" style="margin:auto" class="btn btn-primary btn-lg">Start</button>
+<div>
+<div class="col-md-8">
+	<h4>Events in Queue:</h4>
+<ul id="management_queue" class="list-group"></ul>
+</div>
+<div class="col-md-4">
+	<h4>Employees Online:</h4>
+	<ul id="presences_list" class="list-group"></ul>
+</div>

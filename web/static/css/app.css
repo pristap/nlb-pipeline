@@ -1,0 +1,31 @@
+/* This file is for your main application css. */
+.online
+{
+	padding: 0px 8px;
+	border-radius: 100%;
+	margin: 5px;
+	background-color: forestgreen;
+}
+
+.offline
+{
+	padding: 0px 8px;
+	border-radius: 100%;
+	margin: 5px;
+	background-color: silver;
+}
+
+.busy
+{
+	padding: 0px 8px;
+	border-radius: 100%;
+	margin: 5px;
+	background-color: firebrick;
+}
+
+.user_type
+{
+	font-size: 21px;
+	display:inline-block; 
+	vertical-align: middle;
+}

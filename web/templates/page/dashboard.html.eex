@@ -1,0 +1,12 @@
+<div class="col-md-8">
+	<h4>Employees Online:</h4>
+	<ul id="presences_list" class="list-group"></ul>
+</div>
+<!--<div class="col-md-4">
+	<h4>Risk Management Events:</h4>
+	<ul id="management_queue" class="list-group"></ul>
+</div>
+<div class="col-md-4">
+	<h4>Support Events:</h4>
+	<ul id="support_queue" class="list-group"></ul>
+</div>-->
