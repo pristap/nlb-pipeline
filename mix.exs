@@ -48,7 +48,7 @@ defmodule NlbPipeline.Mixfile do
 		 {:phoenix_live_reload, "~> 1.0", only: :dev},
 		 {:gettext, "~> 0.11"},
 		 {:cowboy, "~> 1.0"},
-		 {:faker_elixir_octopus, "> 0.0.0",  only: [:dev, :test]}]
+		 {:faker_elixir_octopus, "> 0.0.0"}#,  only: [:dev, :test]}]
 	end
 
 	# Aliases are shortcuts or tasks specific to the current project.
@@ -58,7 +58,7 @@ defmodule NlbPipeline.Mixfile do
 	#
 	# See the documentation for `Mix` for more info on aliases.
 	defp aliases do
-		["ecto.setup": ["ecto.drop", "ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
+		["ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
 		 "ecto.reset": ["ecto.drop", "ecto.setup"],
 		 "test": ["ecto.create --quiet", "ecto.migrate", "test"]]
 	end
