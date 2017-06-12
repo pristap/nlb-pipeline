@@ -14,7 +14,8 @@ use Mix.Config
 config :nlb_pipeline, NlbPipeline.Endpoint,
 	http: [port: {:system, "PORT"}],
 	url: [scheme: "https", host: "nlb-pipeline.herokuapp.com", port: 443],
-force_ssl: [rewrite_on: [:x_forwarded_proto]],	cache_static_manifest: "priv/static/manifest.json"
+	force_ssl: [rewrite_on: [:x_forwarded_proto]],
+	cache_static_manifest: "priv/static/manifest.json",
 	secret_key_base: System.get_env("SECRET_KEY_BASE")
 
 config :nlb_pipeline, NlbPipeline.Repo,
