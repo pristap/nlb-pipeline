@@ -1,3 +1,6 @@
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=hosted%20on%20heroku&style=plastic&colorB=#8D6FB0)](https://nlb-pipeline.herokuapp.com)
+[![Hex.pm](https://img.shields.io/hexpm/v/plug.svg?style=plastic)](https://hex.pm)
+
 # NlbPipeline
 
 ## Why?
@@ -7,6 +10,10 @@ This project was done as a prototype from a hackathon for a real-time job/notifi
 ## Application Walkthrough Video
 
 [![Alt text for your video](http://img.youtube.com/vi/BVWuwCeqfEQ/0.jpg)](https://youtu.be/BVWuwCeqfEQ)
+
+## Live Version
+
+There is also a live version of the [prototype hosted on Heroku](https://nlb-pipeline.herokuapp.com).
 
 ## Usage
 
