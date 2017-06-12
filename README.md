@@ -4,6 +4,10 @@
 
 This project was done as a prototype from a hackathon for a real-time job/notification pipeline for employees in [a bank (NLB)](http://www.nlb.mk).
 
+## Application Walkthrough Video
+
+[![Alt text for your video](http://img.youtube.com/vi/BVWuwCeqfEQ/0.jpg)](https://youtu.be/BVWuwCeqfEQ)
+
 ## Usage
 
 To start your Phoenix app:
